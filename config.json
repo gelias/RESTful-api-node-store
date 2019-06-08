@@ -1,0 +1,14 @@
+{
+  "2": {
+    "value": "CAT",
+    "date": "2019-06-08T09:10:00",
+    "href": "http://localhost:3000/votes/2",
+    "id": 2
+  },
+  "9": {
+    "value": "CAT",
+    "date": "2019-06-08T09:10:00",
+    "href": "http://localhost:3000/votes/9",
+    "id": 9
+  }
+}
