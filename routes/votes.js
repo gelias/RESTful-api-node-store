@@ -19,33 +19,4 @@ router.put('/', function(req, res, next) {
     res.send(JSON.stringify(vote));
 });
 
-router.get('/:id', function(req, res, next) {
-    let vote = store.get(req.param('id'));
-    res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(
-        vote
-        )
-    );
-});
-
-router.delete('/:id', function(req, res, next) {
-    store.del(req.params['id']);
-    res.setHeader('Content-Type', 'application/json');
-    res.status(202);
-    res.send(EMPTY);
-});
-
-router.get('/', function(req, res, next) {
-    let json = store.json(null, 2);
-    res.setHeader('Content-Type', 'application/json');
-    res.send(json);
-});
-
-router.purge('/clear', function(req, res, next) {
-    store.clear();
-    res.setHeader('Content-Type', 'application/json');
-    res.status(202);
-    res.send();
-});
-
 module.exports = router;
