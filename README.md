@@ -6,3 +6,9 @@ RESTful API
 Docker
 ======
 [![dockeri.co](http://dockeri.co/image/_/node)](https://registry.hub.docker.com/_/node/)
+
+Setup
+======
+```javascript
+npm install && npm start
+```

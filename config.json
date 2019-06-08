@@ -5,6 +5,12 @@
     "href": "http://localhost:3000/votes/2",
     "id": 2
   },
+  "5": {
+    "value": "CAT",
+    "date": "2019-06-08T09:10:00",
+    "href": "http://localhost:3000/votes/5",
+    "id": 5
+  },
   "9": {
     "value": "CAT",
     "date": "2019-06-08T09:10:00",
