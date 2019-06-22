@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
   res.send(JSON.stringify(
         {
             hasErrors: false,
-            version: '0.1.1'
+            version: '0.1.2'
         }
     ));
 });
